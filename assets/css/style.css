@@ -37,6 +37,17 @@ h3.hub {
     font-family: "Lato-Bold",Arial, Helvetica, sans-serif;
 }
 
+h3.centre{
+    font-family: "Lato-Bold",Arial, Helvetica, sans-serif;
+}
+
+p.pa {
+    font-family: "Lato-Bold",Arial, Helvetica, sans-serif;
+}
+
+.nos {
+    font-family: "Lato-Bold",Arial, Helvetica, sans-serif;
+}
 /* HEADER */
 
 
@@ -59,6 +70,7 @@ h3.hub {
 
 .nav-link:hover {
     color: rgb(236, 209, 84);
+    transition-duration: 0.2s;
 }
 
 .nav-link {
@@ -125,5 +137,61 @@ p.hub strong {
 }
 
 .aprt {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.col-4.text-center.centre {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 20px
+}
+
+h3.centre {
+    margin-top: 20px;
+}
+
+p.pa {
+    font-size: small;
+}
+
+.voir {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(18, 46, 62);
+    display: flex;
+    justify-content: center;
+    margin-right: 600px;
+    margin-left: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* SECTION 3 */
+
+.realisez {
+    font-weight: bolder;
+}
+
+.nos {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#realisez a{
+    text-decoration: none;
+    color: rgb(18, 46, 62);
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#realisez a:hover{
+    color: gold;
+    transition-duration: 0.2s;
+}
+
+#realisez .info {
+    padding-left: 0;
+    padding-right: 0;
 }
