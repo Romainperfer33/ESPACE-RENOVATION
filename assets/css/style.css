@@ -23,6 +23,10 @@ body {
     src: url(../fonts/ROBOTO/Roboto-Bold.ttf);
 }
 
+@font-face {
+    font-family: "Lato-Thin";
+    src: url(../fonts/Lato/Lato-Thin.ttf);
+}
 
 p.hub {
     font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
@@ -47,6 +51,14 @@ p.pa {
 
 .nos {
     font-family: "Lato-Bold",Arial, Helvetica, sans-serif;
+}
+
+footer .pa {
+    font-family: "Lato-Thin", Arial, Helvetica, sans-serif; ;
+}
+
+.stud a {
+    font-family: "Lato-Thin", Arial, Helvetica, sans-serif;
 }
 /* HEADER */
 
@@ -212,3 +224,69 @@ p.pa {
     padding-left: 0;
     padding-right: 0;
 }
+
+/* FOOTER */
+
+footer .container {
+    background-color: rgb(18, 46, 62);
+    max-width: 100%;
+}
+
+footer .col-4 {
+    color: white;
+    margin-top: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+footer .col-4 h2 {
+    font-size: 16px;
+    margin-top: 15px
+}
+
+footer .pa {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer .contact {
+    padding-left: 20px;
+    border-left: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer .col-4 img {
+    width: 300px;
+    margin-left: 100px;
+}
+
+footer .contact img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.stud {
+    display: flex;
+    justify-content: center;
+}
+.stud a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.stud p {
+    color: white;
+}
+
+.stud a:hover {
+    color: gold;
+    transition-duration: 0.4s;
+}
+
